@@ -8,3 +8,7 @@ echo $age
 echo $age2
 echo 'Hello, ${#name}!'
 
+if name ~= "Taco":
+	echo "True"
+end
+
