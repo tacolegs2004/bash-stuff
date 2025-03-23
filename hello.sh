@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
 
-name = "Taco"
+name="Taco"
 
+
+# This is a test.
 echo "Hello, ${name}! You are ${age:=21} years old."
-echo "Hello, ${name}! You are ${age2:-21} years old."
-echo $age
-echo $age2
-echo 'Hello, ${#name}!'
-
-if name ~= "Taco":
-	echo "True"
-end
-
+echo "Hello, ${name}! You are ${age2:=22} years old."
+echo "$age is age"
+echo "$age2 is age2"
+echo "Hello, $#name!"
