@@ -4,6 +4,8 @@
 lhs=()
 rhs=()
 
+# test
+
 while read -r num1 num2; do
   lhs+=("$num1")
   rhs+=("$num2")
